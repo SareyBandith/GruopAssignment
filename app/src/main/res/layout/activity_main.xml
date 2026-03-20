@@ -22,11 +22,11 @@
         tools:layout_editor_absoluteX="119dp" />
 
     <TextView
-        android:id="@+id/textStartBarcode"
+        android:id="@+id/ContentReader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Barcode Reader"
+        android:text="Content Reader"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="24sp"
@@ -39,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Barcode Reader"
+        android:text="Text Reader"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="24sp"
@@ -69,7 +69,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textStartBarcode"
+        app:layout_constraintTop_toBottomOf="@+id/ContentReader"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
@@ -104,7 +104,7 @@
         android:layout_marginStart="66dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="66dp"
-        android:text="List O fAnalaysed Images"
+        android:text="List OfAnalaysed Images"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
